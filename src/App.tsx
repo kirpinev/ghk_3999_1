@@ -636,7 +636,7 @@ export const App = () => {
         </div>
       )}
 
-      <Gap size={96} />
+      {step === 1 && <Gap size={96} />}
 
       {step === 1 && (
         <div className={appSt.bottomBtnThx}>
